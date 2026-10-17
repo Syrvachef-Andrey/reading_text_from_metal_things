@@ -38,7 +38,7 @@ final_img = cv2.cvtColor(np.array(img_pil), cv2.COLOR_RGB2BGR)
 
 cv2.imshow("result", final_img)
 
-cv2.imwrite("./output/easyocr_output.png", final_img)
+cv2.imwrite("./output/easy_ocr_out/easyocr_output.png", final_img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
