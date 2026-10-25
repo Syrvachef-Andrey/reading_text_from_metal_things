@@ -1,4 +1,5 @@
 from paddleocr import PaddleOCR
+import configparser
 
 ocr = PaddleOCR(
     use_textline_orientation=True,
@@ -6,7 +7,10 @@ ocr = PaddleOCR(
     enable_mkldnn=False
 )
 
-img_path = 'image_for_test/image.png'
+my_config = configparser.ConfigParser()
+my_config.read("./config.ini")
+
+img_path = my_config["PATH"]["path_to_test_image"]
 result = ocr.predict(img_path)
 
 for res in result:

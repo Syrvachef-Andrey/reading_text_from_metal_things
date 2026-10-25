@@ -2,9 +2,13 @@ import easyocr
 import cv2
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
+import configparser
+
+my_config = configparser.ConfigParser()
+my_config.read("./config.ini")
 
 reader = easyocr.Reader(['ru', 'en'], gpu=True)
-img_path = "./image_for_test/image.png"
+img_path = my_config["PATH"]["path_to_test_image"]
 
 img = cv2.imread(img_path)
 

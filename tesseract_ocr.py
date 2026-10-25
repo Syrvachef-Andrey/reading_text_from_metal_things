@@ -3,8 +3,12 @@ import pytesseract
 from pytesseract import Output
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
+import configparser
 
-opened_image = cv2.imread('image_for_test/image.png')
+my_config = configparser.ConfigParser()
+my_config.read("./config.ini")
+
+opened_image = cv2.imread(my_config["PATH"]["path_to_test_image"])
 
 pts_src = np.array([
     [549, 234],
