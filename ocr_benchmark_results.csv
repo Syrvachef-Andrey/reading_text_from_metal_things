@@ -1,0 +1,312 @@
+﻿Image,Defect,Model,Ground Truth,Predicted,CER (%),Time (s)
+img1.png,Original,Tesseract,BHH8-1000-2000/04-041 H 18050102848 48ст 980м е0 05.2018 3002280218,"Sent eal ee cen SE т
+А. а |
+а И HESS, SAS ne у
+МН, и САО i Heres Reha es Ш
+о И м Si
+SES oe BS Е НИЙ | a й sete АННЕ р
+Si о Ne Rites otter WA ita if | tj ae
+о Е | Me (dae alate
+Ей те ИК ee ah Е ии На a |
+= 9 < SPAR Ni io: Е eee } a UN
+ea AURA OTN) 5 SUSE CAY eins eee
+= eS See Bret Е eh Wh ltd ЕВЕ Soon) SOR Soy aay SURES TS Se
+а ие te М. pas Coen CASES
+— = о НН ane BD ARTS т. ie
+Seis А ga ae HOE ee ae EE Ae GAS scape Pages wes Coane pe ee
+Se ae pap зы By is Е Е
+ЕЕ ee : Soe ОР oe часы АЗ: А",100.0,1.02
+img1.png,Original,EasyOCR,BHH8-1000-2000/04-041 H 18050102848 48ст 980м е0 05.2018 3002280218,Л-ШШI-ЪUNLML '{uill(28 SlliLI WUAЬМЦИ,89.55,1.06
+img1.png,Original,PaddleOCR,BHH8-1000-2000/04-041 H 18050102848 48ст 980м е0 05.2018 3002280218,St. Idoo. .,95.52,0.1
+img1.png,Original,TrOCR,BHH8-1000-2000/04-041 H 18050102848 48ст 980м е0 05.2018 3002280218,BHHD-1000-200070-041 18050102848 90N @ 05.208 V0220210,28.36,3.38
+img1.png,Noise,Tesseract,BHH8-1000-2000/04-041 H 18050102848 48ст 980м е0 05.2018 3002280218,"о A о
+se eae А г
+ее т: АНИ В ane ee Coe о hoe
+Sy ee SHG Be Я И. о Wea ee Ea
+о и ee PSR т
+Пе LN Ie НН т НН о Е
+о О а. ae a
+: ae eee ОУ А РЕ а т. fo ole a
+= о а о и
+a ao eae | es eS es Sloe
+ee aed Sg SES Я |. Ее Е Е - ое ee He
+ee Se CSO Cae aU EE о о are
+eee и | ий 1 Boas fee 3 Nee у a Doe
+Se, в А ain ice т в В А: ee As as ue 1
+Sb sacle: ene op os a oes es Ae Re ee _
+о о о т AS ag _ oe :
+о о he EINE > Se ae = Е
+не i а о р
+а. т —
+а о а.",100.0,1.37
+img1.png,Noise,EasyOCR,BHH8-1000-2000/04-041 H 18050102848 48ст 980м е0 05.2018 3002280218,Bli-IlWI-ANW IМI 105WI(20  Klttl lAl А((,83.58,0.92
+img1.png,Noise,PaddleOCR,BHH8-1000-2000/04-041 H 18050102848 48ст 980м е0 05.2018 3002280218,д,100.0,0.06
+img1.png,Noise,TrOCR,BHH8-1000-2000/04-041 H 18050102848 48ст 980м е0 05.2018 3002280218,BM-1000-20004 1 104 18050102848 980N @ 05.2018 12800218,34.33,3.41
+img1.png,Glare,Tesseract,BHH8-1000-2000/04-041 H 18050102848 48ст 980м е0 05.2018 3002280218,"ЕН а ake
+=: ЗЫ Е: a Е SAE SENET (Fore ИИ
+= и НЕВЫ ИЕ ПВ HES 3 ВАН nye ОН
+И А Е м а wet
+ee RE CORUNA: ey TRESS, и
+о al т | © 0 AM ЗЕ, ¥ EOE i Uf | ‘ Acide Sit
+eg) ROH ED: Brie SR HEM rere ce i
+een qe. gee Se Neat As en, Vil ‘ED ete ed Cire OW SF НЕ: sth
+SSeS teas №2 м НЕ te ) Ра А А СА м Aiton
+= _ НГ. НЕ, ПЕНН AGA SS 8 SES AES Reps eat
+— & Ae TG) УЕ А а Е и
+Be ee A | RD peed a arth RU PACERS RE: LEANER =
+ОИ
+НН",100.0,0.85
+img1.png,Glare,EasyOCR,BHH8-1000-2000/04-041 H 18050102848 48ст 980м е0 05.2018 3002280218,Шim-I-ШОЖ!М [[5U8  Ollittd luAll {ЛЙ(,88.06,0.92
+img1.png,Glare,PaddleOCR,BHH8-1000-2000/04-041 H 18050102848 48ст 980м е0 05.2018 3002280218,Zouon ra. oo-,95.52,0.06
+img1.png,Glare,TrOCR,BHH8-1000-2000/04-041 H 18050102848 48ст 980м е0 05.2018 3002280218,BHHD-1000-200070-041 18050102848 980N @0.052018 002980218,23.88,3.54
+img2.png,Original,Tesseract,"КЕРАМЕТ Насос ЭЦНДП 5-80-2100/04-013 Насосная секция верхняя (5,5 м) ЭЦНДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23060140","SURO ОА а и. ЗЕ
+о"" о a _ . a as. Bie, FM
+: че SET ES Tee И uh Ue an | | ВУ: И: ий, НУ
+и ee о ee
+и в 5-Е ВОРОВ. о вес А
+yeh Beier stared ce nT oe aoa ret ры к
+ae, НРЕНОЯ:СЕКЦИ я, ВЕРХНЯЯ = и ДЕН т! тт
+о и
+а С и Ни:
+а Е. о ie | de 3
+а а м ИИА a AEGAN pe тие AGB
+elt | GAP ee gt AY ee ON ЕЕ, | aoe",100.0,0.82
+img2.png,Original,EasyOCR,"КЕРАМЕТ Насос ЭЦНДП 5-80-2100/04-013 Насосная секция верхняя (5,5 м) ЭЦНДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23060140","KЕRANET IFicic ЗЦНДП 5-80-2100/04 0.13 агаЕнaЯ секцuя Верхняя (5,5 МПЫЦДП -'] LEr H=1050 201 Ke 'ЗuдN 2Suo0ia М::",47.06,0.81
+img2.png,Original,PaddleOCR,"КЕРАМЕТ Насос ЭЦНДП 5-80-2100/04-013 Насосная секция верхняя (5,5 м) ЭЦНДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23060140",S 8u-2ju00tro is еекция Depxhяя .sm shys Eе. ођо M. 29 K21 дENO,77.31,0.13
+img2.png,Original,TrOCR,"КЕРАМЕТ Насос ЭЦНДП 5-80-2100/04-013 Насосная секция верхняя (5,5 м) ЭЦНДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23060140","KERNET, BUCHIN 5-80-2100/04 0.3 TAXING CEKUUS BEPAHSAH (5.5%) BALMART 5-8 TAX: H=1050 201 K2 SOUND 2306016C M.J",66.39,7.48
+img2.png,Noise,Tesseract,"КЕРАМЕТ Насос ЭЦНДП 5-80-2100/04-013 Насосная секция верхняя (5,5 м) ЭЦНДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23060140","а
+о о | ae ie a о
+а о :
+_ о IN | ee
+2) о Ох ВЕ о |. eA
+eed с
+а с п: ne о
+а но о
+ee ee
+os Ce ee a",84.03,0.75
+img2.png,Noise,EasyOCR,"КЕРАМЕТ Насос ЭЦНДП 5-80-2100/04-013 Насосная секция верхняя (5,5 м) ЭЦНДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23060140",ЭцндП 5-80-2100/04 дq Секцuя берхняя ЭI H-1050 M: . 201 к/ SuDNo 039,58.82,0.76
+img2.png,Noise,PaddleOCR,"КЕРАМЕТ Насос ЭЦНДП 5-80-2100/04-013 Насосная секция верхняя (5,5 м) ЭЦНДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23060140",S bu iuDul. еkя ь 2тK2,92.44,0.06
+img2.png,Noise,TrOCR,"КЕРАМЕТ Насос ЭЦНДП 5-80-2100/04-013 Насосная секция верхняя (5,5 м) ЭЦНДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23060140",BUHAN 5-80-2100/04 QTY CEKUUS BEPXHAS MANMARY H-1050 M. 201K2 SALBNP $0.60,73.11,5.58
+img2.png,Glare,Tesseract,"КЕРАМЕТ Насос ЭЦНДП 5-80-2100/04-013 Насосная секция верхняя (5,5 м) ЭЦНДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23060140",": Po eee SAREE RH est SERA LET Ges ETN ater ЧИ, Е AY
+: pio eo Ses и м Е И И у en ae аа, ee
+ey VERS a
+АТ И р и о о i ie eo | И
+ot 21: ЭЦНДИ:5- В О а bee oe к.
+Е oa eg eee al Е О eae
+ББ я СВКЦИЯ Bepxting (9 Пя
+sive SAS AH= 1050 Mee ZO tne > aa
+ee nas йе
+И Hee р.",100.0,0.63
+img2.png,Glare,EasyOCR,"КЕРАМЕТ Насос ЭЦНДП 5-80-2100/04-013 Насосная секция верхняя (5,5 м) ЭЦНДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23060140",{ЕRANET Inachc ЗЦНДП 5-80-2100/04 01 пвtнaя секцuя Верхняя (55 МПЫШДП  1 } ₽ H=1050 201 Ke #ЗugNo <3Uot15 М:,50.42,0.82
+img2.png,Glare,PaddleOCR,"КЕРАМЕТ Насос ЭЦНДП 5-80-2100/04-013 Насосная секция верхняя (5,5 м) ЭЦНДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23060140",еекцця бepxhяя osm ali's ођо M 2uT Kz1.,85.71,0.08
+img2.png,Glare,TrOCR,"КЕРАМЕТ Насос ЭЦНДП 5-80-2100/04-013 Насосная секция верхняя (5,5 м) ЭЦНДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23060140","TERINT 3, JOHIN 5-80-2100/04 0.13 TAX ID: CEKUUS DEPXTHIS (5) SAVINGS @ ITEM H-1050 201 K2 SUB NO.2306D1&C M.J",68.91,7.43
+img3.png,Original,Tesseract,"КЕРАМЕТ Насос ЭЦНДП5-80-2100/04-013 Насосная секция нижняя (5,5 м) ЭНЦДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23040123","и р м EAS OPA Mel
+о м
+и о sae Ta es AR О
+ei Oe ret м О RMON о es
+и A ORS не.
+ona Ear gamely Re В oy CSE pale а и Yea de
+poco ttn bl ee ОО Е a
+Е и и О > в eS pis
+НЫЙ а р дас А ЙА, ыы И г Е a
+re ages se Gis clean be Me is) Fal ВЕ SE 80 a
+и Serene Circe aC.) ON RESTA | og pine, | ap aay ee ee ah + ote
+Pa OTe te БМ РКМ: РЗ
+is peg nee ONO Dilan Bis ak В ee |.
+о Е о С Е, a
+И 8 о",100.0,1.09
+img3.png,Original,EasyOCR,"КЕРАМЕТ Насос ЭЦНДП5-80-2100/04-013 Насосная секция нижняя (5,5 м) ЭНЦДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23040123","КЕРАПЕТ HacaE ЭЦНДП5-80-2100/04-0 3 Насп_haq Еекция Нuжняя 95,5 МЭГНЛП 5-80 183 , H-050 M 201 кe: ЗaDN'23040123",31.62,0.75
+img3.png,Original,PaddleOCR,"КЕРАМЕТ Насос ЭЦНДП5-80-2100/04-013 Насосная секция нижняя (5,5 м) ЭНЦДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23040123",Kep.et Hgege лоо Or-o. Hetetne. Aижhая 5э гия ALEE S-8O M. з SUDNG.aULU2s Ke.,82.05,0.12
+img3.png,Original,TrOCR,"КЕРАМЕТ Насос ЭЦНДП5-80-2100/04-013 Насосная секция нижняя (5,5 м) ЭНЦДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23040123",KERAMET HACON PURIMS-80-2100 /04-018 HOCOCHPA TEKU4A MUXHAX (5.5 M ALANU 5-80 170CM H=1050 M. 201K2. SODN: 2 DAY0213,57.26,7.39
+img3.png,Noise,Tesseract,"КЕРАМЕТ Насос ЭЦНДП5-80-2100/04-013 Насосная секция нижняя (5,5 м) ЭНЦДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23040123","ее т Е Е Chee
+о а eee ee а а Se оса Е eT es
+Le oe une о ee ee Uae и a
+Or ae
+Eee и
+ee ee ee ey eee oe ae ee т. a
+Och аа 9 a eeu. а
+ие о
+ие Пе мм Heo on
+и о
+а и о.
+oe Po 50 | 20 ke 2oON 2 28 о
+
+ее о м о
+о о о о _ а
+
+а о oo",100.0,1.25
+img3.png,Noise,EasyOCR,"КЕРАМЕТ Насос ЭЦНДП5-80-2100/04-013 Насосная секция нижняя (5,5 м) ЭНЦДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23040123","KEВA # НаслЕ ЭНЗДП5-80-2100/04-0 Hazas Fc екция Нuжняя 6,5 Эш ПП 5-80 ""ПЭР H=O50 И ; 20 кe; ЗлDN""_ 940123",44.44,0.76
+img3.png,Noise,PaddleOCR,"КЕРАМЕТ Насос ЭЦНДП5-80-2100/04-013 Насосная секция нижняя (5,5 м) ЭНЦДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23040123",э e тэгээ,95.73,0.09
+img3.png,Noise,TrOCR,"КЕРАМЕТ Насос ЭЦНДП5-80-2100/04-013 Насосная секция нижняя (5,5 м) ЭНЦДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23040123",KERA L INVOICE FOR ONS-80-2100/04-0 HOCON PAICKULAR NUNHAR (5.5 RM IT 5-80 TYPE H-1050 M.: 201KE SADNP2 340123,62.39,7.25
+img3.png,Glare,Tesseract,"КЕРАМЕТ Насос ЭЦНДП5-80-2100/04-013 Насосная секция нижняя (5,5 м) ЭНЦДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23040123","ОА чаи
+Shy ees ee ee ane
+а Е О.
+
+о eee СИ И о о
+sy oes Sei > АЕ Bassa idee aan Pee cs SARA OE SB: 1
+[oN ee ed т Bite ett as ae Ce DWE kee
+НЕЕ Pgs NI a CN VEE Ora, SRS SS ee SSS
+[ es = ah р Е PAG Bsa ee т Eon ae
+aa Gee ees . ИЯ г К и ео
+
+dg yee pee ath Я 59 С и Since har re Ы ЗА igs ised | le isi) :
+
+S: НЕ ЕЕ р 5 a iN PKA SS) ne ones sa ve ee
+г ЕЕ А В яя у = aE A Е ont aR chs soe Lage rhea”
+
+| |НОЕВЕНАЗ ЕК ALS 7 a РЕ Wee oe [a В В: _
+
+fo gehen ees ыы ВБ Vite ee Е Sat et ae >.
+РАЕН Е ИН ae © Те ей Нин
+
+и п Oa Oe
+
+eee te Ta TS ee р ole
+
+Porites Stan + TER",100.0,1.03
+img3.png,Glare,EasyOCR,"КЕРАМЕТ Насос ЭЦНДП5-80-2100/04-013 Насосная секция нижняя (5,5 м) ЭНЦДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23040123","КЕРАЧЕТ НаЕ[E ЭНЯДП5-80-2100/04-0 3 Наспенhя Еекция Аuжняя 15,5 УЭL ЛП5-80 И7,ы4 H-4950 M' 201кe: ЗаоN 2304а123",34.19,0.74
+img3.png,Glare,PaddleOCR,"КЕРАМЕТ Насос ЭЦНДП5-80-2100/04-013 Насосная секция нижняя (5,5 м) ЭНЦДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23040123",Hgeee эр лэ л Of.o. Hettens. екция зэ MaLEIS-3O ео иэээ Ke. SEDNI.sULUn2s,84.62,0.08
+img3.png,Glare,TrOCR,"КЕРАМЕТ Насос ЭЦНДП5-80-2100/04-013 Насосная секция нижняя (5,5 м) ЭНЦДП 5-80 170cm.; H=1050 м.; 201 кг. Зав№23040123",KERAMET HACON PURJOTS 80- 2100 /04-018 HOCOCHARA TEKU4A PUDKHWA (S.B) BLK UT 5-80 170ML H-1050 M. 201KE SODN: 2 DAY02,65.81,7.1
+img4.png,Original,Tesseract,МС BHH8 2000/04-020412 3002301465 H 21090103707 20ст 350м е0 09ю2021,"ем По и А""
+О: | И и Г. р Е
+= а. ; eee A a ST Noe PL РА vey ey cas iy Tas FS Yi aan i
+TIED SUE SANIT DON EAS. ¢ Pa eee
+РЕ : ЕЙ НЙ. ves mat ate ie
+Е teal g2 eer ЗНАЯ и [НВ Е BN а
+И Ae NE AEE 3s
+ARES eB AES И 3 4 Е. ие ie See
+ee о
+а во и. т РА ТА А А.
+=e Е Та Wale Eve | Lee ЗН 2 ee Ед ea №: = Иа Bs i nue
+fu Fa Yobs Vat at ма ie. Vaal Е ЧН Е 7 Ree
+ВЕНА Aas le О = Buby vA Ее
+Е у x А Be fi Pile PONIES А Юм = HE me
+
+И а ВЕ ее с В а.
+ИА ТЫ 1 ан о eee = о
+a SEP ET RTE NSE eee ее",100.0,1.13
+img4.png,Original,EasyOCR,МС BHH8 2000/04-020412 3002301465 H 21090103707 20ст 350м е0 09ю2021,[Слие 3ЛHMM12 MUI6 Ilitiall  т lM ( (ДL,82.35,0.85
+img4.png,Original,PaddleOCR,МС BHH8 2000/04-020412 3002301465 H 21090103707 20ст 350м е0 09ю2021,ав,100.0,0.08
+img4.png,Original,TrOCR,МС BHH8 2000/04-020412 3002301465 H 21090103707 20ст 350м е0 09ю2021,MC.04-B -300104-020412 3002301465 H21099103107 20CT 350M E0 09.2024,27.94,3.75
+img4.png,Noise,Tesseract,МС BHH8 2000/04-020412 3002301465 H 21090103707 20ст 350м е0 09ю2021,"а
+и о и — о
+ие и. аа | ААА
+и HMA a1 \ Jats he Be
+| — о т р. ae be EASES Baas Не. _
+А во
+See IMU
+Say ata a ee о
+а Re
+п о и и.
+и и а о AL EAS) ce
+д ay
+ae : a - — а о В. о А А К ey Eg АЛЕ"" ae
+ee Le a gS О У. м
+а о о
+о ee
+ee ROS eRe RN te rar oR gory GREAT OR и",100.0,1.21
+img4.png,Noise,EasyOCR,МС BHH8 2000/04-020412 3002301465 H 21090103707 20ст 350м е0 09ю2021,[Си? а 4М4206 Ihi Jltl (i4Ё},85.29,0.84
+img4.png,Noise,PaddleOCR,МС BHH8 2000/04-020412 3002301465 H 21090103707 20ст 350м е0 09ю2021,згд . ав,97.06,0.04
+img4.png,Noise,TrOCR,МС BHH8 2000/04-020412 3002301465 H 21090103707 20ст 350м е0 09ю2021,MCD HIS 100-1-020412 3002301463 109010 350M E0 09.2021,39.71,3.39
+img4.png,Glare,Tesseract,МС BHH8 2000/04-020412 3002301465 H 21090103707 20ст 350м е0 09ю2021,"а ee
+я м ООО м ен pe ts
+о ee
+= Se о Nee AAA Ve AP ew
+Le ale an anata) WA и ce
+My nl тр м, ey ЕЕ.
+all SF] B ae Mall Ami ae AG pe el Be Ee iy 1 И.
+: | el, Не BB ee Se NR -
+а а ЕВ И
+а мы Ни р ВВ Мат ret oH boo) Та Е Petes 8 Ee Ba eer fe Aas
+= Я Aya Oe AE AGUS ae = А Е es
+EEA ( i м ‘ey es АЛЕ aS a
+ЕН нЕ Е ох ое т...
+ЕЕ LEEK: ea PRIN ens ee Se =.
+Е. Е : ги Е а не ЕЕ м И М ВР. ЕС
+pee И ВЕ ее | Е Е Ее.
+a Ie eee wf sat das se: te Date ME Beg epee ke x er Bees — Е
+
+ЕЕ Ки АЕ ДУ
+
+АО",100.0,1.15
+img4.png,Glare,EasyOCR,МС BHH8 2000/04-020412 3002301465 H 21090103707 20ст 350м е0 09ю2021,ICАИНIHM4LЗ(L)I] IeMИol IDЛII(МIIL,94.12,0.85
+img4.png,Glare,PaddleOCR,МС BHH8 2000/04-020412 3002301465 H 21090103707 20ст 350м е0 09ю2021,зOо д ав,97.06,0.04
+img4.png,Glare,TrOCR,МС BHH8 2000/04-020412 3002301465 H 21090103707 20ст 350м е0 09ю2021,MC.0-00-000412 3002301465 H2109010 JOH PJU SSON E0 09.2024,42.65,3.51
+img5.png,Original,Tesseract,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Насос ЭЦН 5-35-1400 cm 41912 100 масса 120 кг ТУ 28.13.14-002-02512514-2018,"Е ЕЕ
+в A NET Shin Vie
+АЕ м: Ee SA oe
+PUN ЛЕТО @ ee ere
+ULSAN APY NK are: oa Gk ASS ee fe
+Pe EAMES) Be AEN BLES BSS (ees ey В ANS au ae ese ee
+res Spy ta и nee TEES я Е 2s eee
+By re fh ра ЫЕЗЕ И. и ee а ey Cite ers aes ec —
+и = “eee Pe ee ee eos eee ee
+Cae Е *% HOB НК М р Я ia ee estat Caray tort ue
+meget с ЗЕЕ НЫЕ, т Е к а НИ а oy
+Sete | АА LEG ER a: И Чех а | Е: И is
+ВВ С АЕ, RAS НЫ Fa es See Se < ran Cre —
+at < feos eee а SNE figs Ses St ae Sos OF Bes .
+а OE: SELF fe rie DPSS И Sandie ВЕНЕ а ЗУД 3 2.
+Ha dee | М = aw Baits seat Se eas ea ese iy SE ENE
+“Ha : Oo je yA а м Е =
+af: ae Е Е Е Sa ee жа Se Shoes
+АСЕ Wa ie: - pA eee ER И Е Sea eee
+arta eee Sie Se
+tol xa; Е BERS. ке а S125. SRE UIC
+ры CE rans АНИ TEE OS See а
+
+ИО НЕ “984 В Og 02 Sz
+
+Е =: TY И
+
+Е ne SYR ae See
+
+= в Ия OE
+
+Я ge т",100.0,1.46
+img5.png,Original,EasyOCR,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Насос ЭЦН 5-35-1400 cm 41912 100 масса 120 кг ТУ 28.13.14-002-02512514-2018,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Hacot ЗЦН 5-35-1401 е 191 2 мacca120 K2 185 ТЧ 28 B707 42512514 2218,38.24,0.85
+img5.png,Original,PaddleOCR,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Насос ЭЦН 5-35-1400 cm 41912 100 масса 120 кг ТУ 28.13.14-002-02512514-2018,овыIе CигEMDгитEхHологий H? MacEal20 K? T рэгэгй,79.41,0.09
+img5.png,Original,TrOCR,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Насос ЭЦН 5-35-1400 cm 41912 100 масса 120 кг ТУ 28.13.14-002-02512514-2018,HOBBIE CMCTEMBI M TEXHOAORMM HACOL BLOH 5-35-1400 9 1912 MACCA120 K2 165 T9.28 B 6-002 02512514-2018,59.8,6.4
+img5.png,Noise,Tesseract,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Насос ЭЦН 5-35-1400 cm 41912 100 масса 120 кг ТУ 28.13.14-002-02512514-2018,"к ted an Se re
+о с
+ое о ри
+т Ей |. эры о м
+а о Be) = ce eed ae Е о А BRERA a
+о о eal (dee М а
+a _ о о _ о оли 0 AGE Moe
+= Hae о о р о ее Be Pee AN
+о о И Oa о Dee _
+о о о о). ПЕ в о
+es . 2 о о - и и в ce oe eee ta
+ee eae mee me о о Е о ес о
+а о о ое ое а и. и Но о: о.
+о 2 A Te о о oe poset cee Soe ce ae
+oot ie Te о о и о к se ce ee ee
+eee о о a о а. м: т а о :
+о о о о ее ЕЯ! р р
+_ и о о oS a= eS
+a a . о —. | и. = eee = о о
+о с и ЕЕ о о
+о as oo ee oe: eka о cS",100.0,1.51
+img5.png,Noise,EasyOCR,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Насос ЭЦН 5-35-1400 cm 41912 100 масса 120 кг ТУ 28.13.14-002-02512514-2018,НОВЫЕ СИСТЕМЫИ ТЕХНОЛОГИИ Haс 6 3 35+1401 191 Macca120 к? 15 125142018,46.08,0.79
+img5.png,Noise,PaddleOCR,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Насос ЭЦН 5-35-1400 cm 41912 100 масса 120 кг ТУ 28.13.14-002-02512514-2018,теХнолгИЙ эзэд Mateslo,88.24,0.09
+img5.png,Noise,TrOCR,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Насос ЭЦН 5-35-1400 cm 41912 100 масса 120 кг ТУ 28.13.14-002-02512514-2018,HOBBIE CMCTEMBI V TEXH0/10FM HACON H 5-35-1400 191 MACCO 120 K2 155 $12514 2018,66.67,5.02
+img5.png,Glare,Tesseract,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Насос ЭЦН 5-35-1400 cm 41912 100 масса 120 кг ТУ 28.13.14-002-02512514-2018,"Ре ар РА р АРЕНА О ре р
+ЧН B РА и Resor etd ето А Ed Ba CUAL A See
+SS HOBBIE CUCTENBIM TEXHO NOE: 22
+oR Ag Se le EEN Oe DCE Ry site НЕ а
+и Ре Ly ae SE аа м м ee ag es
+BRIN Sp Da sok Би м ое ie ee
+Sey ре PE IE ies see
+Ав РР. Sp PRE Rees ее Е
+AO COC OL = о
+Ск а, “Se маса Ke
+О аа Bs я Phy whe : р ее АН
+if Е Ро ce т а ee м Shes
+at Ио. ца ТА РА 25125"" Е
+т Ты TY 2 15, Shed UE EE eS ee Se eee
+
+Bog rg AE BS Я OE Rg ay On Sead Ss LE Sehr oe eee",100.0,1.1
+img5.png,Glare,EasyOCR,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Насос ЭЦН 5-35-1400 cm 41912 100 масса 120 кг ТУ 28.13.14-002-02512514-2018,НОВЫЕ СИСТЕМЫИ ТЕХНОЛОГИИ Насt ЗЦН 5-35 1409 2191 2 Macca120 K2 185 ТЧ 28 5 9512514 2u18,40.2,0.81
+img5.png,Glare,PaddleOCR,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Насос ЭЦН 5-35-1400 cm 41912 100 масса 120 кг ТУ 28.13.14-002-02512514-2018,ове сиглэги тEхHOлOгии Sпeэ 3s o ti? Mattal20 K? Fet-tele.,74.51,0.09
+img5.png,Glare,TrOCR,НОВЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ Насос ЭЦН 5-35-1400 cm 41912 100 масса 120 кг ТУ 28.13.14-002-02512514-2018,HOEBIE CMC TAMBI 4 TEXH0/10FM HACOL BHD 5-35 14002 41912 MACCA120 K2 165 T9.28 B 9512514 2018,66.67,5.83
