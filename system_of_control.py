@@ -22,6 +22,55 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "True"
 os.environ["HF_TOKEN"] = my_config["HF_TOKEN"]["token"]
 
 
+def rotate_continuous_gaussian(image, mean_angle=0.0, std_angle=15.0):
+    angle = np.random.normal(loc=mean_angle, scale=std_angle)
+
+    h, w = image.shape[:2]
+    center = (w // 2, h // 2)
+
+    M = cv2.getRotationMatrix2D(center, angle, scale=1.0)
+
+    cos_val = np.abs(M[0, 0])
+    sin_val = np.abs(M[0, 1])
+    new_w = int((h * sin_val) + (w * cos_val))
+    new_h = int((h * cos_val) + (w * sin_val))
+
+    M[0, 2] += (new_w / 2) - center[0]
+    M[1, 2] += (new_h / 2) - center[1]
+
+    rotated = cv2.warpAffine(
+        image,
+        M,
+        (new_w, new_h),
+        flags=cv2.INTER_LINEAR,
+        borderMode=cv2.BORDER_REPLICATE
+    )
+    return rotated
+
+def simulate_camera_perspective_tilt(image, max_tilt_ratio=0.15):
+    h, w = image.shape[:2]
+
+    pts_src = np.float32([
+        [0, 0],
+        [w - 1, 0],
+        [w - 1, h - 1],
+        [0, h - 1]
+    ])
+
+    std_offset = min(w, h) * max_tilt_ratio / 3.0
+    offsets = np.random.normal(0, std_offset, (4, 2)).astype(np.float32)
+    pts_dst = pts_src + offsets
+
+    matrix = cv2.getPerspectiveTransform(pts_src, pts_dst)
+    tilted = cv2.warpPerspective(
+        image,
+        matrix,
+        (w, h),
+        flags=cv2.INTER_LINEAR,
+        borderMode=cv2.BORDER_REPLICATE
+    )
+    return tilted
+
 def add_noise(image):
     row, col, ch = image.shape
     mean, sigma = 0, 25
@@ -90,12 +139,12 @@ def main():
     trocr_m = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-base-printed")
 
     dataset_dir = my_config["PATH"]["path_to_dataset"]
-    gt_file = my_config["PATH"]["path_to_json_file"]  # Формат: {"image1.png": "ТЕКСТ 123", ...}
+    gt_file = my_config["PATH"]["path_to_json_file"]
 
     if not os.path.exists(gt_file):
         print("Файл ground_truth.json не найден")
         ground_truth_dict = {"image.png": "ЭТАЛОННЫЙ ТЕКСТ ШИЛЬДИКА"}
-        dataset_dir = my_config["PATH"]["path_to_test_image"]  # Твоя папка
+        dataset_dir = my_config["PATH"]["path_to_test_image"]
     else:
         with open(gt_file, 'r', encoding='utf-8') as f:
             ground_truth_dict = json.load(f)
@@ -112,7 +161,9 @@ def main():
         images_to_test = {
             "Original": orig_img,
             "Noise": add_noise(orig_img),
-            "Glare": add_glare(orig_img)
+            "Glare": add_glare(orig_img),
+            "Rotate_Jitter": rotate_continuous_gaussian(orig_img, mean_angle=0.0, std_angle=15.0),
+            "Persepctive_Tilt": simulate_camera_perspective_tilt(orig_img, max_tilt_ratio=0.12)
         }
 
         for defect_name, img in images_to_test.items():
